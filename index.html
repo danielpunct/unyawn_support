@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UnYawn Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      color: #222;
+    }
+    .card {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UnYawn Support</h1>
+    <p>Publisher: <strong>UnYawn</strong></p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Need Help?</h2>
+      <p>
+        Thank you for using our app! If you have questions, need help, or want to share feedback, please contact us anytime.
+      </p>
+      <p>
+        📧 Email: <a href="mailto:unyawndeveloper@gmail.com">unyawndeveloper@gmail.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> UnYawn. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
